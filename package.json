@@ -2,9 +2,8 @@
   "name": "fp-js-tic-tac-toe",
   "version": "1.0.0",
   "description": "a tic tac toe game in js using fp",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel-build src/index.html",
+    "start": "parcel src/index.html",
     "build": "parcel src/index.html"
   },
   "keywords": [
