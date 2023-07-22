@@ -1,0 +1,24 @@
+{
+  "name": "fp-js-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "a tic tac toe game in js using fp",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel-build src/index.html",
+    "build": "parcel src/index.html"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "fp",
+    "js"
+  ],
+  "author": "Bharat Manral",
+  "license": "ISC",
+  "dependencies": {
+    "folktale": "^2.3.2",
+    "ramda": "^0.29.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
