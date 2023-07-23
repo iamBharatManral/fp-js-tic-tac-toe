@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel src/index.html"
+    "build": "parcel build src/index.html"
   },
   "keywords": [
     "tic-tac-toe",
