@@ -14,9 +14,16 @@ html, body {
 body {
     font-family: 'Mynerve', cursive;
     display: grid;
-    grid-template-rows: minmax(5vh, max-content) 1fr minmax(10vh, max-content);
+    grid-template-rows: minmax(5vh, max-content) minmax(5vh, max-content) 1fr 5vh minmax(10vh, max-content);
     gap: 2rem;
 
+}
+
+.firework{
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+    width: 100vw;
 }
 
 header {
@@ -42,7 +49,9 @@ p {
     font-family: 'Indie Flower', cursive;
     font-weight: bolder;
 }
-
+.message{
+    text-align: center;
+}
 .board {
     display: grid;
     grid: repeat(3, 100px) / repeat(3, 100px);
@@ -64,8 +73,30 @@ p {
     background: cornflowerblue;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 2rem;
+    transition: transform 1s ease-in-out revert;
 }
 
+.playerTurn{
+    text-align: center;
+    font-size: 2rem;
+    color: indianred;
+}
+.btn-group{
+    justify-self: center;
+    gap: 10px;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: whitesmoke;
+    font-weight: bolder;
+    color: blue;
+    font-size: 1rem;
+    cursor: pointer;
+}
 
 footer {
     text-align: center;
